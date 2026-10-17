@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TikTok connected · Video Fabrikasi</title>
+<style>body{font:16px/1.5 -apple-system,Segoe UI,sans-serif;max-width:560px;margin:60px auto;padding:0 16px;color:#111;background:#fafafa}code{display:block;word-break:break-all;background:#eee;padding:10px;border-radius:6px}</style>
+<h1>TikTok connection</h1><p id="d">Reading the authorization result…</p><code id="c"></code>
+<script>const q=new URLSearchParams(location.search);const c=q.get('code'),e=q.get('error');
+document.getElementById('d').textContent=c?'Authorization complete. The desktop tool reads this code to finish connecting your TikTok account. You can close this page.':('Authorization was not completed'+(e?': '+e:'.'));
+document.getElementById('c').textContent=c||'';</script></html>
